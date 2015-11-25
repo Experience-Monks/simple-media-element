@@ -1,0 +1,46 @@
+{
+  "name": "simple-media-element",
+  "version": "1.0.0",
+  "description": "a bare-bones <audio> and <video> abstraction",
+  "main": "index.js",
+  "license": "MIT",
+  "author": {
+    "name": "Matt DesLauriers",
+    "email": "dave.des@gmail.com",
+    "url": "https://github.com/mattdesl"
+  },
+  "dependencies": {
+    "is-dom": "^1.0.5"
+  },
+  "devDependencies": {
+    "faucet": "0.0.1",
+    "jsdom": "^3.1.2",
+    "tape": "^4.2.2"
+  },
+  "scripts": {
+    "test": "node test.js | faucet"
+  },
+  "keywords": [
+    "simple",
+    "media",
+    "audio",
+    "video",
+    "tag",
+    "element",
+    "elements",
+    "source",
+    "mime",
+    "type",
+    "browser",
+    "browserify",
+    "webpack"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Jam3/simple-media-element.git"
+  },
+  "homepage": "https://github.com/Jam3/simple-media-element",
+  "bugs": {
+    "url": "https://github.com/Jam3/simple-media-element/issues"
+  }
+}
