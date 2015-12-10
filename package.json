@@ -10,6 +10,7 @@
     "url": "https://github.com/mattdesl"
   },
   "dependencies": {
+    "browser-media-mime-type": "^1.0.0",
     "is-dom": "^1.0.5"
   },
   "devDependencies": {

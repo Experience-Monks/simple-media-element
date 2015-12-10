@@ -16,6 +16,7 @@ function simpleMediaElement (elementName, sources, opt) {
   if (opt.loop) media.setAttribute('loop', 'loop')
   if (opt.muted) media.setAttribute('muted', 'muted')
   if (opt.autoplay) media.setAttribute('autoplay', 'autoplay')
+  if (opt.controls) media.setAttribute('controls', 'controls')
   if (opt.crossOrigin) media.setAttribute('crossorigin', opt.crossOrigin)
   if (opt.preload) media.setAttribute('preload', opt.preload)
   if (opt.poster) media.setAttribute('poster', opt.poster)

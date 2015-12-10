@@ -51,6 +51,7 @@ The options given to `opt`. If any is unspecified, it will not be set on the ele
 - `loop` (Boolean)
 - `muted` (Boolean)
 - `autoplay` (Boolean)
+- `controls` (Boolean)
 - `crossOrigin` (String)
 - `preload` (String)
 - `poster` (String)
