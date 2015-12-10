@@ -20,7 +20,7 @@
     "tape": "^4.2.2"
   },
   "scripts": {
-    "test": "standard && node test.js | faucet"
+    "test": "standard && node test.js"
   },
   "keywords": [
     "simple",

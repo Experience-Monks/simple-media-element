@@ -1,5 +1,5 @@
 var isDom = require('is-dom')
-var lookup = require('./lib/mime')
+var lookup = require('browser-media-mime-type')
 
 module.exports.video = simpleMediaElement.bind(null, 'video')
 module.exports.audio = simpleMediaElement.bind(null, 'audio')

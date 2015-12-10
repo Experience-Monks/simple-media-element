@@ -13,10 +13,12 @@ test('a bare-bones <audio> and <video> abstraction', function (t) {
 
   var audio = media.audio('foo/bar.mp3', {
     loop: true,
+    controls: true,
     volume: 0.5,
     crossOrigin: 'Anonymous'
   })
   t.equal(audio.getAttribute('loop'), 'loop')
+  t.equal(audio.getAttribute('controls'), 'controls')
   t.equal(audio.getAttribute('volume'), '0.5')
   t.equal(audio.getAttribute('crossorigin'), 'Anonymous')
   t.equal(audio.childNodes[0].nodeName, 'SOURCE')
